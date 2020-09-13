@@ -14,7 +14,7 @@
 int menu (int trigger1, int trigger2,int trigger3,int operando1, int operando2)
 {
     int comando;
-    printf("***Calculadora***\n\n");
+    printf("				***Calculadora***\n\n");
 
     cambioXy("1. Ingresar 1er operando (A=x)","1. Ingresar 1er operando (A=",operando1,trigger1);
     cambioXy("2. Ingresar 2do operando (B=y)","2. Ingresar 2do operando (B=",operando2,trigger2);
@@ -24,7 +24,7 @@ int menu (int trigger1, int trigger2,int trigger3,int operando1, int operando2)
 
     printf("4. Informar resultados\n");
 
-    printf("5.Salir\n\n");
+    printf("5.Salir\n");
     printf("6.Reiniciar \n\n: ");
     scanf("%d",&comando);
     return comando;
@@ -48,20 +48,20 @@ void menuOpc3 (int trigger, int operandoA, int operandoB)
 {
     if (!trigger)
     {
-        printf(" a) Calcular la suma (A+B)\n");
-        printf(" b) Calcular la resta (A-B)\n");
-        printf(" c) Calcular la division (A/B)\n");
-        printf(" d) Calcular la multiplicacion (A*B)\n");
-        printf(" e) Calcular el factorial (A!) y (B!)\n");
+        printf("a) Calcular la suma (A+B)\n");
+        printf("b) Calcular la resta (A-B)\n");
+        printf("c) Calcular la division (A/B)\n");
+        printf("d) Calcular la multiplicacion (A*B)\n");
+        printf("e) Calcular el factorial (A!) y (B!)\n");
 
     }
     else if(  trigger==1)
     {
-        printf(" a) Calcular la suma (%d+%d)\n",operandoA, operandoB);
-        printf(" b) Calcular la resta (%d+%d)\n",operandoA, operandoB);
-        printf(" c) Calcular la division (%d+%d)\n",operandoA, operandoB);
-        printf(" d) Calcular la multiplicacion (%d+%d)\n",operandoA, operandoB);
-        printf(" e) Calcular el factorial (%d!) y (%d!)\n",operandoA,operandoB);
+        printf("a) Calcular la suma (%d+%d)\n",operandoA, operandoB);
+        printf("b) Calcular la resta (%d+%d)\n",operandoA, operandoB);
+        printf("c) Calcular la division (%d+%d)\n",operandoA, operandoB);
+        printf("d) Calcular la multiplicacion (%d+%d)\n",operandoA, operandoB);
+        printf("e) Calcular el factorial (%d!) y (%d!)\n",operandoA,operandoB);
     }
 
 }
@@ -75,7 +75,7 @@ int validacionPositivos(char texto[],int operando)
 
     while(operando<0)
     {
-        printf("Ingrese numeros positivos\n");
+        printf("	Ingrese numeros positivos\n");
         printf("%s",texto);
         scanf("%d",&numero);
 
@@ -101,7 +101,7 @@ void validacionDivision(int dividendo, int divisor)
 char validacionSalir()
 {
     char confirmacion;
-    printf(" Confirmar salir s/n : ");
+    printf("Confirmar salir s/n : ");
 
     fflush(stdin);
     confirmacion = tolower(getchar());

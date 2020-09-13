@@ -52,7 +52,7 @@ int multiplicacion (int num1, int num2);
  * \return int 0 si el entero es 0, 1 si el entero es 1, si es mayor de 0 o 1 devuelve el total
  *
  */
-int factorial(int num);
+long long int factorial(int num);
 
 
 #endif /* OPERACIONES_H_ */

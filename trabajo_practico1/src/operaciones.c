@@ -42,20 +42,21 @@ int multiplicacion (int num1, int num2)
 }
 
 
-int factorial(int num)
+long long int factorial(int num)
 {
-    int fact;
-    if(num==0)
+    long long int fact;
+    long long int numF = num;
+    if(numF==0)
     {
         fact=0;
     }
-    else if(num==1)
+    else if(numF==1)
     {
         fact=1;
     }
     else
     {
-        fact= num *factorial(num-1);
+        fact= numF*factorial(num-1);
 
     }
     return fact;
