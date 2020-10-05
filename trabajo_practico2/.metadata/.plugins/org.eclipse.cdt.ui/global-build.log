@@ -1,0 +1,156 @@
+19:36:05 **** Incremental Build of configuration Debug for project Trabajo_Practico2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\menuValidaciones.o" "..\\src\\menuValidaciones.c" 
+In file included from ..\src\menuValidaciones.c:12:
+..\src\ArrayEmployees.h:36:19: error: unknown type name 'empleados'
+   36 | int initEmployees(empleados gente[], int tam);
+      |                   ^~~~~~~~~
+..\src\ArrayEmployees.h:46:18: error: unknown type name 'empleados'
+   46 | int addEmployees(empleados persona[], int tam, int* idAutomatico);
+      |                  ^~~~~~~~~
+..\src\ArrayEmployees.h:56:22: error: unknown type name 'empleados'
+   56 | int findEmployeeById(empleados persona[], int tam, int id);
+      |                      ^~~~~~~~~
+..\src\ArrayEmployees.h:65:20: error: unknown type name 'empleados'
+   65 | int removeEmployee(empleados persona[], int tam);
+      |                    ^~~~~~~~~
+..\src\ArrayEmployees.h:75:19: error: unknown type name 'empleados'
+   75 | int sortEmployees(empleados persona[], int tam,int ascDesc);
+      |                   ^~~~~~~~~
+..\src\ArrayEmployees.h:84:20: error: unknown type name 'empleados'
+   84 | int printEmployees(empleados persona[], int tam);
+      |                    ^~~~~~~~~
+..\src\ArrayEmployees.h:93:23: error: unknown type name 'empleados'
+   93 | int modificarEmpleado(empleados persona[], int tam);
+      |                       ^~~~~~~~~
+..\src\ArrayEmployees.h:102:17: error: unknown type name 'empleados'
+  102 | int buscarLibre(empleados persona[], int tam);
+      |                 ^~~~~~~~~
+..\src\ArrayEmployees.h:110:21: error: unknown type name 'empleados'
+  110 | void mostrarpersona(empleados persona);
+      |                     ^~~~~~~~~
+..\src\menuValidaciones.c: In function 'validacionCadenaCaracteres':
+..\src\menuValidaciones.c:49:27: error: 'ArrayEmployees' undeclared (first use in this function)
+   49 |         else if(flag == 1)ArrayEmployees
+      |                           ^~~~~~~~~~~~~~
+..\src\menuValidaciones.c:49:27: note: each undeclared identifier is reported only once for each function it appears in
+..\src\menuValidaciones.c:49:41: error: expected ';' before '{' token
+   49 |         else if(flag == 1)ArrayEmployees
+      |                                         ^
+      |                                         ;
+   50 |         {
+      |         ~                                
+19:37:45 **** Incremental Build of configuration Debug for project Trabajo_Practico2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Trabajo_Practico2.o" "..\\src\\Trabajo_Practico2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\menuValidaciones.o" "..\\src\\menuValidaciones.c" 
+..\src\menuValidaciones.c: In function 'validacionCadenaCaracteres':
+..\src\menuValidaciones.c:49:27: error: 'ArrayEmployees' undeclared (first use in this function); did you mean 'printEmployees'?
+   49 |         else if(flag == 1)ArrayEmployees
+      |                           ^~~~~~~~~~~~~~
+      |                           printEmployees
+..\src\menuValidaciones.c:49:27: note: each undeclared identifier is reported only once for each function it appears in
+..\src\menuValidaciones.c:49:41: error: expected ';' before '{' token
+   49 |         else if(flag == 1)ArrayEmployees
+      |                                         ^
+      |                                         ;
+   50 |         {
+      |         ~                                
+19:37:53 **** Incremental Build of configuration Debug for project Trabajo_Practico2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\menuValidaciones.o" "..\\src\\menuValidaciones.c" 
+..\src\menuValidaciones.c: In function 'validacionCadenaCaracteres':
+..\src\menuValidaciones.c:49:27: error: 'ArrayEmployees' undeclared (first use in this function); did you mean 'printEmployees'?
+   49 |         else if(flag == 1)ArrayEmployees
+      |                           ^~~~~~~~~~~~~~
+      |                           printEmployees
+..\src\menuValidaciones.c:49:27: note: each undeclared identifier is reported only once for each function it appears in
+..\src\menuValidaciones.c:49:41: error: expected ';' before '{' token
+   49 |         else if(flag == 1)ArrayEmployees
+      |                                         ^
+      |                                         ;
+   50 |         {
+      |         ~                                
+19:37:56 **** Incremental Build of configuration Debug for project Trabajo_Practico2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\menuValidaciones.o" "..\\src\\menuValidaciones.c" 
+..\src\menuValidaciones.c: In function 'validacionCadenaCaracteres':
+..\src\menuValidaciones.c:49:27: error: 'ArrayEmployees' undeclared (first use in this function); did you mean 'printEmployees'?
+   49 |         else if(flag == 1)ArrayEmployees
+      |                           ^~~~~~~~~~~~~~
+      |                           printEmployees
+..\src\menuValidaciones.c:49:27: note: each undeclared identifier is reported only once for each function it appears in
+..\src\menuValidaciones.c:49:41: error: expected ';' before '{' token
+   49 |         else if(flag == 1)ArrayEmployees
+      |                                         ^
+      |                                         ;
+   50 |         {
+      |         ~                                
+19:37:59 **** Incremental Build of configuration Debug for project Trabajo_Practico2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\menuValidaciones.o" "..\\src\\menuValidaciones.c" 
+..\src\menuValidaciones.c: In function 'validacionCadenaCaracteres':
+..\src\menuValidaciones.c:49:27: error: 'ArrayEmployees' undeclared (first use in this function); did you mean 'printEmployees'?
+   49 |         else if(flag == 1)ArrayEmployees
+      |                           ^~~~~~~~~~~~~~
+      |                           printEmployees
+..\src\menuValidaciones.c:49:27: note: each undeclared identifier is reported only once for each function it appears in
+..\src\menuValidaciones.c:49:41: error: expected ';' before '{' token
+   49 |         else if(flag == 1)ArrayEmployees
+      |                                         ^
+      |                                         ;
+   50 |         {
+      |         ~                                
+19:46:31 **** Incremental Build of configuration Debug for project Trabajo_Practico2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\menuValidaciones.o" "..\\src\\menuValidaciones.c" 
+..\src\menuValidaciones.c: In function 'validacionCadenaCaracteres':
+..\src\menuValidaciones.c:49:27: error: 'ArrayEmployees' undeclared (first use in this function); did you mean 'printEmployees'?
+   49 |         else if(flag == 1)ArrayEmployees
+      |                           ^~~~~~~~~~~~~~
+      |                           printEmployees
+..\src\menuValidaciones.c:49:27: note: each undeclared identifier is reported only once for each function it appears in
+..\src\menuValidaciones.c:49:41: error: expected ';' before '{' token
+   49 |         else if(flag == 1)ArrayEmployees
+      |                                         ^
+      |                                         ;
+   50 |         {
+      |         ~                                
+19:48:17 **** Incremental Build of configuration Debug for project Trabajo_Practico2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Trabajo_Practico2.o" "..\\src\\Trabajo_Practico2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\menuValidaciones.o" "..\\src\\menuValidaciones.c" 
+..\src\menuValidaciones.c: In function 'validacionCadenaCaracteres':
+..\src\menuValidaciones.c:49:27: error: 'ArrayEmployees' undeclared (first use in this function); did you mean 'printEmployees'?
+   49 |         else if(flag == 1)ArrayEmployees
+      |                           ^~~~~~~~~~~~~~
+      |                           printEmployees
+..\src\menuValidaciones.c:49:27: note: each undeclared identifier is reported only once for each function it appears in
+..\src\menuValidaciones.c:49:41: error: expected ';' before '{' token
+   49 |         else if(flag == 1)ArrayEmployees
+      |                                         ^
+      |                                         ;
+   50 |         {
+      |         ~                                
+19:48:47 **** Incremental Build of configuration Debug for project Trabajo_Practico2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\menuValidaciones.o" "..\\src\\menuValidaciones.c" 
+..\src\menuValidaciones.c: In function 'validacionCadenaCaracteres':
+..\src\menuValidaciones.c:49:27: error: 'ArrayEmployees' undeclared (first use in this function); did you mean 'printEmployees'?
+   49 |         else if(flag == 1)ArrayEmployees
+      |                           ^~~~~~~~~~~~~~
+      |                           printEmployees
+..\src\menuValidaciones.c:49:27: note: each undeclared identifier is reported only once for each function it appears in
+..\src\menuValidaciones.c:49:41: error: expected ';' before '{' token
+   49 |         else if(flag == 1)ArrayEmployees
+      |                                         ^
+      |                                         ;
+   50 |         {
+      |         ~                                
+19:51:22 **** Incremental Build of configuration Debug for project Trabajo_Practico2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Trabajo_Practico2.o" "..\\src\\Trabajo_Practico2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\menuValidaciones.o" "..\\src\\menuValidaciones.c" 
+gcc -o Trabajo_Practico2.exe "src\\ArrayEmployees.o" "src\\Trabajo_Practico2.o" "src\\menuValidaciones.o" 

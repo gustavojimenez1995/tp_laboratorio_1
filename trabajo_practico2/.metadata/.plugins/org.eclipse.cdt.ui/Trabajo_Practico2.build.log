@@ -1,0 +1,8 @@
+19:51:22 **** Incremental Build of configuration Debug for project Trabajo_Practico2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Trabajo_Practico2.o" "..\\src\\Trabajo_Practico2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\menuValidaciones.o" "..\\src\\menuValidaciones.c" 
+gcc -o Trabajo_Practico2.exe "src\\ArrayEmployees.o" "src\\Trabajo_Practico2.o" "src\\menuValidaciones.o" 
+
+19:51:30 Build Finished. 0 errors, 0 warnings. (took 8s.293ms)
+
