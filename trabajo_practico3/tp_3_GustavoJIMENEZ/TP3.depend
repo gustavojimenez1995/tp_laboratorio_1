@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1604887760 source:c:\users\a.g.j.c\desktop\utn\para tp\tp3\tp3_cascara\win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"validacionesHerramientas.h"
+
+1604440630 c:\users\a.g.j.c\desktop\utn\para tp\tp3\tp3_cascara\win_64\linkedlist.h
+
+1604887149 c:\users\a.g.j.c\desktop\utn\para tp\tp3\tp3_cascara\win_64\employee.h
+
+1604440632 c:\users\a.g.j.c\desktop\utn\para tp\tp3\tp3_cascara\win_64\parser.h
+
+1604887325 c:\users\a.g.j.c\desktop\utn\para tp\tp3\tp3_cascara\win_64\validacionesherramientas.h
+
+1604887708 source:c:\users\a.g.j.c\desktop\utn\para tp\tp3\tp3_cascara\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"validacionesHerramientas.h"
+
+1604849924 c:\users\a.g.j.c\desktop\utn\para tp\tp3\tp3_cascara\win_64\controller.h
+
+1604887325 source:c:\users\a.g.j.c\desktop\utn\para tp\tp3\tp3_cascara\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1604887325 source:c:\users\a.g.j.c\desktop\utn\para tp\tp3\tp3_cascara\win_64\validacionesherramientas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<string.h>
+
+1604887151 source:c:\users\a.g.j.c\desktop\utn\para tp\tp3\tp3_cascara\win_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
